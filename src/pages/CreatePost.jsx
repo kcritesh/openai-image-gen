@@ -28,8 +28,8 @@ const CreatePost = () => {
         });
 
         const data = await response.json();
+        console.log(data.photo);
         setForm({ ...form, photo: `data:image/jpeg;base64,${data.photo}` });
-        console.log(data);
       } catch (error) {
         alert(error);
       } finally {
