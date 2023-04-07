@@ -1,3 +1,4 @@
+
 # **DALL-E Clone on React (Frontend)**
 
 ## Image generation project built using OpenAI API. Create cool looking images out of text and share them with the community.
@@ -6,8 +7,9 @@
 
 - ReactJS
 - Tailwind CSS
-
+[Backend Link](https://github.com/kcritesh/dalle-backend)
 ---
+
 
 #### install required packages
 
