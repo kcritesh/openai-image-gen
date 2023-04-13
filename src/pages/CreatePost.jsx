@@ -135,12 +135,9 @@ const CreatePost = () => {
           <button
             type="button"
             onClick={generateImage}
-            className="text-white bg-green-700 rounded-md font-medium text-sm w-full sm:w-auto px-5 py-2.5 opacity-50"
-            disabled
+            className="text-white bg-green-700 rounded-md font-medium text-sm w-full sm:w-auto px-5 py-2.5 "
           >
-            {generatingImg
-              ? "Generating..."
-              : "Error : OpenAI Credits Has Expired"}
+            {generatingImg ? "Generating..." : "Generate"}
           </button>
         </div>
         <div className="mt-10">
